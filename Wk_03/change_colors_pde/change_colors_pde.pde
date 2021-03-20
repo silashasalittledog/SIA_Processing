@@ -14,8 +14,8 @@ void draw() {
   stroke(0, 0, 0); // black outline
   ellipse(400, 400, 60, 60); // ellipse with blue fill and black outline
   
-  //fill(0, 255, 0); //green fill
-  //stroke(255, 0, 0); //red outline
-  //ellipse(400, 100, 60, 60); // ellipse with green fill and red outline
+  fill(0, 255, 0); //green fill
+  stroke(255, 0, 0); //red outline
+  ellipse(400, 100, 60, 60); // ellipse with green fill and red outline
   
 }
