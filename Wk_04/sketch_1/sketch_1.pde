@@ -20,9 +20,16 @@ void draw() {
   float b = 255;
   
   fill(r, g, b);
+  noStroke();
+  ellipse(mouseX, mouseY, 50, 50);
+  
   if (mousePressed) {
-    ellipse(mouseX, mouseY, 50, 50);
+    noFill();
+    stroke(0);
+    ellipse(mouseX-10, mouseY+10, 50, 50);
   }
+  
+  
   
   fill(255, 40);
   rect(0, 0, width, height);
