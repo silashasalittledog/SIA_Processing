@@ -14,11 +14,9 @@ void draw() {
 void drawCircles(float x, float y, float w) {
   noFill();
   strokeWeight(10);
+  stroke(255, 0, 0);
   
-  for(float i = 0; i < 4; i++){
-    stroke(255, 0, 0);
-    noFill();
-    
+  for(float i = 0; i < 4; i++){ 
     ellipse(x, y, w*(1-i*1/4), w*(1-i*1/4));  
   }
   
